@@ -72,6 +72,12 @@ header img, #logo {
     border: 1px solid #e6e8ea;
 }
 
+#box2  {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
 #box2 h2 {
     display: inline;
     cursor: pointer;
@@ -150,4 +156,12 @@ li {
 
 #sum1 {
     padding-top: 30px;
+}
+
+.web {
+    background-color: #d863a1;
+}
+
+.sales {
+    background-color: #b0c926;
 }
