@@ -71,3 +71,41 @@ header img, #logo {
     color: #e6e8ea;
     border: 1px solid #e6e8ea;
 }
+
+#box2 h2 {
+    display: inline;
+    cursor: pointer;
+}
+
+details {
+    padding-left: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+.check {
+    border: 2px solid green;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    color: green;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.edito, .goals, .recruit, .mobile, .web, .sales {
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.edito {
+    background-color: #45abea;
+}
