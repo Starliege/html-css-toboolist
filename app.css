@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.debug {
+.debug *{
     border: 1px solid red;
     padding: 5px;
 }
@@ -38,4 +38,36 @@ header img {
 
 header img, #logo {
     vertical-align: middle;
+}
+
+.box {
+    background-color: #fff;
+    margin: auto;
+    width: 80%;
+}
+
+#box1 {
+    border-radius: 10px 10px 0 0;
+    padding: 0 0 15px 0;
+    border-bottom: 3px solid rgb(246,248,249);
+}
+
+.button {
+    height: 30px;
+    border-radius: 5px;
+}
+
+#button1 {
+    width: 70px;
+    margin: 15px 0 0 55px;
+    background-color: rgb(71,173,241);
+    color: #fff;
+    border-style: none;
+}
+
+#button2 {
+    width: 100px;
+    background-color: rgb(240,240,240, 0);
+    color: #e6e8ea;
+    border: 1px solid #e6e8ea;
 }
