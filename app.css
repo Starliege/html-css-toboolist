@@ -83,6 +83,7 @@ details {
 
 ul {
     list-style: none;
+    font-weight: bold;
 }
 
 .check {
@@ -108,4 +109,45 @@ ul {
 
 .edito {
     background-color: #45abea;
+}
+
+.cross {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding: 0px;
+    margin-right: 5px;
+    color: #f07870;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid #f07870;
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+.goals {
+    background-color: #9c72e4;
+}
+
+.recruit {
+    background-color: #64c0a9;
+}
+
+.mobile {
+    background-color: #f29e33;
+}
+
+summary {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+li {
+    padding-bottom: 25px;
+    margin-left: -5px;
+}
+
+#sum1 {
+    padding-top: 30px;
 }
